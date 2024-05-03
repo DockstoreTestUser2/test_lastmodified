@@ -1,3 +1,7 @@
+meta {
+  author : "DockstoreTestUser2"
+}
+
 task hello {
   String name
 
