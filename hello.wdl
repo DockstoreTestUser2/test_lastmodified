@@ -1,7 +1,3 @@
-meta {
-  author : "DockstoreTestUser2"
-}
-
 task hello {
   String name
 
@@ -14,5 +10,9 @@ task hello {
 }
 
 workflow test {
+  meta {
+    author: "DockstoreTestUser2"
+  }
+
   call hello
 }
